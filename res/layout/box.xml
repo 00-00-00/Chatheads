@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/box"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/box_shape" >
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentRight="true"
+         android:background="@drawable/ic_action_cancel"
+         android:onClick="closeBox" />
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toLeftOf="@id/button1"
+         android:layout_alignParentLeft="true"
+         android:text="Innovation"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#FFFFFF" />
+
+     <TextView
+         android:id="@+id/box_text"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/button1"
+         android:text="@string/box_text"
+         android:textColor="#FFFFFF" />
+
+</RelativeLayout>

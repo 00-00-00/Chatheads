@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chatheads</string>
+    <string name="hello_world">This serivce starts the head!</string>
+    <string name="action_settings">Settings</string>
+    <string name="box_text">ɪnəˈveɪʃ(ə)n/
+        noun
+the action or process of innovating.
+"innovation is crucial to the continuing success of any organization"
+synonyms:	change, alteration, revolution, upheaval, transformation, metamorphosis, reorganization, restructuring, rearrangement, recasting, remodelling, renovation, restyling, variation; More
+a new method, idea, product, etc.
+plural noun: innovations
+"technological innovations designed to save energy"</string>
+
+</resources>
